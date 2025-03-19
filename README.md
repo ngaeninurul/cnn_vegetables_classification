@@ -16,8 +16,9 @@ cnn_vegetables_classification
 |   ├───saved_model.pb
 |   └───variables
 ├───notebook.ipynb             # Main Jupyter notebook for model training
-├───README.md                  # Project documentation
+├───best_model.keras           # Best model saved from training
 ├───requirements.txt           # Required dependencies
+├───README.md                  # Project documentation
 ```
 
 ## 📊 Dataset
