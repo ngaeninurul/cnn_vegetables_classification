@@ -5,19 +5,19 @@ This project develops a Convolutional Neural Network (CNN) model to classify ima
 
 ## 📂 File Structure
 ```
-submission
-├───tfjs_model
+cnn_vegetables_classification
+├───tfjs_model                 # TFJS is a format for TensorFlow.js, allowing models to run in browsers and JavaScript applications
 |   ├───group1-shard1of1.bin
 |   └───model.json
-├───tflite
+├───tflite                     # TF-Lite is an optimized format for mobile and embedded devices
 |   ├───model.tflite
 |   └───label.txt
-├───saved_model
+├───saved_model                # SavedModel is a standard TensorFlow format for deployment on servers or cloud
 |   ├───saved_model.pb
 |   └───variables
-├───notebook.ipynb               # Main Jupyter notebook for model training
-├───README.md                    # Project documentation
-├───requirements.txt              # Required dependencies
+├───notebook.ipynb             # Main Jupyter notebook for model training
+├───README.md                  # Project documentation
+├───requirements.txt           # Required dependencies
 ```
 
 ## 📊 Dataset
